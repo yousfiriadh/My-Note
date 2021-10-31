@@ -16,7 +16,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="909bed30-c44f-4851-8b21-1fe2b7bddea5" name="Default Changelist" comment="" />
@@ -47,6 +53,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1xzZWSnim2ANihO1nFyI98KHPym" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635708349905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1635709381409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635709381409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +206,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -232,10 +258,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="139" width="840" height="486" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1631528959420" />
-    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1635708349167">
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1635709380855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1635708349167" />
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1635709380855" />
     <state x="100" y="100" width="1166" height="568" key="DiffContextDialog" timestamp="1635709140889">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -264,10 +290,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1635708301846" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1635708388104">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1635709404498">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1635708388104" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1635709404498" />
     <state x="499" y="162" key="chooseDestDirectoryDialog" timestamp="1631527252272">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
