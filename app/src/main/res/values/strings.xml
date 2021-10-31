@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="app_action_bar_text">My Notes</string>
+
+    <string name="back">back</string>
+    <string name="save">save</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="some_text">
+    </string>
+    <string name="this_is_a_title">What is Lorem Ipsum?</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="edited_on">Edited on: %1$s</string>
+    <string name="search_here">Search Notes…</string>
+    <string name="clear">clear</string>
+    <string name="choose_color">Select Color</string>
+    <string name="add_note">Add Note</string>
+    <string name="no_data_image">no data image</string>
+    <string name="noteContentImage">NoteContentImage</string>
+    <string name="add_image">Take Picture</string>
+    <string name="delete">Delete</string>
+    <string name="fileAuthority">com.yousfi.mynotes.fileProvider</string>
+    <string name="select_image">Select Image</string>
+    <string name="fab">fab</string>
+    <string name="short_label">New Note</string>
+    <string name="long_label">Add New Note</string>
+    <string name="disabled_message">New Note Shortcut Disabled</string>
+    <string name="delete_fab">deleteFab</string>
+</resources>

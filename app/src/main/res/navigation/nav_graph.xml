@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/noteFragment">
+
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.yousfi.mynotes.ui.fragments.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note">
+        <action
+            android:id="@+id/action_noteFragment_to_noteContentFragment"
+            app:destination="@id/noteContentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteContentFragment"
+        android:name="com.yousfi.mynotes.ui.fragments.NoteContentFragment"
+        android:label="fragment_note_content"
+        tools:layout="@layout/fragment_note_content">
+        <deepLink app:uri="notesapp://com.yousfi.mynotes/addnewnote" />
+        <action
+            android:id="@+id/action_noteContentFragment_to_noteFragment"
+            app:destination="@id/noteFragment"
+            app:popUpTo="@id/noteFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="Note"
+            android:defaultValue="@null"
+            app:argType="com.yousfi.mynotes.model.Note"
+            app:nullable="true" />
+    </fragment>
+</navigation>
